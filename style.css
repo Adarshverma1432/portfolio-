@@ -329,32 +329,7 @@ body {
 }
 
 /* Scroll Down */
-.scroll-down-wrapper {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  animation: fadeInScroll 1.5s ease-in-out;
-}
 
-.arrow-down {
-  width: 20px;
-  height: 20px;
-  border-left: 3px solid #38bdf8;
-  border-bottom: 3px solid #38bdf8;
-  transform: rotate(-45deg);
-  margin: 0 auto;
-  animation: bounceArrow 1.8s infinite;
-  box-shadow: 0 0 10px #38bdf8;
-}
-
-.scroll-down-wrapper p {
-  margin-top: 10px;
-  color: #cbd5e1;
-  font-size: 1rem;
-  animation: glowText 2.5s ease-in-out infinite;
-}
 
 /* Animations */
 @keyframes bounceArrow {
