@@ -1,4 +1,9 @@
 /* Reset and Base */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
 * {
   margin: 0;
   padding: 0;
